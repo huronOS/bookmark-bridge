@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "HuronOSBookmarksSync",
+    "version": "1.0.10",
+    "description": "Syncs bookmarks from the huronOS directives file so thah every bookmark that is in the directives appears in the bookmarks bar.",
+    "permissions": [
+        "bookmarks",
+        "storage",
+        "nativeMessaging"
+    ],
+    "background": {
+        "scripts": [
+            "browser-polyfill.js",
+            "background.js"
+        ],
+        "persistent": true
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "bookmarks@huronos.org",
+            "strict_min_version": "57.0"
+        }
+    },
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2dUd3ellEa3zhvYay9sCShu9HWjDGr0k6//HUdrAT5TYQGEZa3/gkmylhWLZKFKMBRdrJ9Z1ZJMQzprmlWXjrAG7Yiw7Q0Ahh1SXpYN9ZSbViy7holSafb2WcrKV46AtOtkv8pjYJ69kdZbSXHv0J+RgyHho6NtMwL7169SDpQxSIad3AdKaDyCpOHRJe5rXxQY8/qP2PDHASzUavrrEhXclsjJDIdbKl4gVknftExazeP5GhCZ74op7LT7JUuKxCtaN8Kud9oHHoeghGR0u3QgUlxYpeXBsODjdWaxGOILrEWwVgXyT0qBuuyMCgi3Dn3tMU8wipO+PI47zMfazgQIDAQAB"
+}
