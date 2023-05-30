@@ -1,0 +1,2 @@
+// Allows unsigned extensions (the bookmarks one)
+pref("xpinstall.signatures.required", false);

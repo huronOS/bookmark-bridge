@@ -1,0 +1,7 @@
+{
+  "name": "bookmarks_fetcher",
+  "description": "Example host for native messaging",
+  "path": "/usr/bin/bookmarks_fetcher.py",
+  "type": "stdio",
+  "allowed_extensions": [ "bookmarks@huronos.org" ]
+}
