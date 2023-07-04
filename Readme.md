@@ -13,12 +13,14 @@ cd bookmark-bridge && 7z a ../bookmark-bridge.xpi * -r
 ```
 
 # Notes
-This extension requires `python-is-python3` to work properly
+This extension requires `python-is-python3` and the python library `watchdog >= 2` to work properly
 
 # Relevant paths
+```
 FF_NATIVE_HOST="/usr/lib/mozilla/native-messaging-hosts"
 FF_EXT_PATH="/usr/lib/firefox-esr/distribution/extensions"
 CHROME_NATIVE_HOST="/etc/opt/chrome/native-messaging-hosts"
 CHROME_EXT_PATH="/opt/google/chrome/extensions"
 CHROMIUM_NATIVE_HOST="/etc/chromium/native-messaging-hosts"
 CHROMIUM_EXT_PATH="/usr/share/chromium/extensions"
+```

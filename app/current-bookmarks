@@ -1,3 +1,1 @@
-#!/bin/bash
-BOOKMARKS="{Codeforces^https://cpciitsur.contest.codeforces.com/}|{Omegaup^https://omegaup.com/}|"
-echo "$BOOKMARKS"
+{Codeforces^https://cpciitsur.contest.codeforces.com/}|{Omegaup^https://omegaup.com/}|
